@@ -1,0 +1,21 @@
+:root{
+    --primary: hsla(174, 19%, 90%, 0.65);
+    --secondary: hsla(0, 73%, 33%, 0.65);
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: 'Playhall';
+    font-size: 4.5rem;
+    color:#fff;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    background:     linear-gradient(135deg, var(--primary), var(--secondary)),
+                    url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmftm_lL4QW7Uh-OlgD3j98Ct2EAaB_WMhWfIoqlZNfg&s') no-repeat center center / cover ;
+
+    
+    
+}
